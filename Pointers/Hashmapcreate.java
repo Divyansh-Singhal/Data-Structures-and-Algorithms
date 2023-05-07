@@ -9,5 +9,9 @@ public class Hashmapcreate{
         map1=map;
         System.out.println(map);
         System.out.println(map1);
+        //changing value of map
+        map.put("Value",2);
+        System.out.println(map);
+        System.out.println(map1);
     }
 }
