@@ -14,6 +14,18 @@ public class LinkedList {
         }
     }
 
+    public void append(int value){
+        Node newnode=new Node(value);
+        if(length==0){
+            head=newnode;
+            tail=newnode;
+        }
+        else{
+            tail.next=newnode;
+            tail=newnode;
+        }
+    }
+
     public LinkedList(int value){
         Node newnode=new Node(value);
         head=newnode;
