@@ -24,6 +24,7 @@ public class LinkedList {
             tail.next=newnode;
             tail=newnode;
         }
+        length++;
     }
 
     public LinkedList(int value){
